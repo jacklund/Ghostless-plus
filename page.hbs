@@ -1,0 +1,28 @@
+{{!< default}}
+
+{{> header}}
+
+{{#post}}
+
+<div class="container">
+    <div id="primary">
+        <div id="content" role="main">
+
+            <article class="page">
+				
+	        <h1 class="title">{{{title}}}</h1>
+		    <div class="the-content">
+		        {{content}}
+		    </div><!-- the-content -->
+		    <div class="updated">
+		      Last updated on {{date published_at format='MMMM, DD YYYY'}}
+		    </div>
+	    </article>
+
+        </div><!-- #content .site-content -->
+    </div><!-- #primary .content-area -->
+</div>
+
+{{/post}}
+
+{{> footer}}
