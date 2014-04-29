@@ -478,9 +478,20 @@ header .gravatar {
   margin: 0;
   float: right;
 }
+header #logos {
+  overflow: hidden;
+  margin: 10px;
+  float: right;
+  position: relative;
+  top: 40px;
+}
+header #logo {
+  margin: 10px;
+  float: left;
+}
 header #brand {
   float: left;
-  width: 80%;
+  width: 65%;
   margin-top: 22px;
 }
 header #brand h1 {
