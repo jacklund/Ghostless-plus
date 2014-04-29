@@ -480,12 +480,8 @@ header .gravatar {
 }
 header #logos {
   overflow: hidden;
-  margin: 10px;
-  margin-right: 20px;
-  margin-bottom: 0px;
+  margin: 55px 20px 0px 10px;
   float: right;
-  position: relative;
-  top: 45px;
 }
 header #logo {
   margin: 5px;
